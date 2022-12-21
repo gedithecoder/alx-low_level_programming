@@ -1,4 +1,6 @@
 #include <stdio.h>
+include "main.h"
+
 /*
  * main - print a given phrase
  *
