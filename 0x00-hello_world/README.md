@@ -1,1 +1,1 @@
-This directory contains a low level programming project
+This directory contains a Hello World project
