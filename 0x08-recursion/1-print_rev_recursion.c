@@ -6,7 +6,7 @@
  *
  */
 
-void _puts_recursion(char *s)
+void print_rev_recursion(char *s)
 {
 	if (*s)
 	{
