@@ -16,17 +16,19 @@ int print_last_digit(int a)
 
 	if (b > 0)
 	{	
-		printf("%d", b);
+		putchar('0' + b);
 	}
 	else if (b == 0)
 	{
-		printf("%d", b);
+	
+		putchar('0' + b);
 	}
 	else if (b < 0)
 	{
 		b = b * -1;
-		printf("%d", b);
+	
+		putchar('0' + b);
 	}
-
+	
 	return (b);
 }
