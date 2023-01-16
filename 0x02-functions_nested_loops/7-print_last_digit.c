@@ -13,14 +13,9 @@ int print_last_digit(int a)
 	int b;
 
 
-	if (a > 0)
+	if (a >= 0)
 	{	
-		b = a % 10;
-		putchar('0' + b);
-	}
-	else if (a == 0)
-	{
-		b = 0;
+		b = (a % 10) * 1;
 		putchar('0' + b);
 	}
 	else
