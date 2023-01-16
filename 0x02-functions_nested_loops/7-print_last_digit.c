@@ -12,21 +12,20 @@ int print_last_digit(int a)
 {
 	int b;
 
-	b = a % 10;
 
-	if (b > 0)
+	if (a > 0)
 	{	
+		b = a % 10;
 		putchar('0' + b);
 	}
-	else if (b == 0)
+	else if (a == 0)
 	{
-	
+		b = 0;
 		putchar('0' + b);
 	}
-	else if (b < 0)
+	else
 	{
-		b = b * -1;
-	
+		b = (a % 10) * -1;
 		putchar('0' + b);
 	}
 	
