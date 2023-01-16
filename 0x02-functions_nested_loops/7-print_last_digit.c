@@ -18,6 +18,10 @@ int print_last_digit(int a)
 	{	
 		printf("%d", b);
 	}
+	else if (b == 0)
+	{
+		printf("%d", b);
+	}
 	else if (b < 0)
 	{
 		b = b * -1;
