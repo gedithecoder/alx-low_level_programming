@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * jacj_bauer - print hours upto 23:59
+ * jack_bauer - print hours upto 23:59
  *
  * Return: 0
  */
@@ -25,4 +25,4 @@ void jack_bauer(void)
 		}
 		a++;
 	}
-}	
+}
