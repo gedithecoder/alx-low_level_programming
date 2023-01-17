@@ -18,8 +18,16 @@ void times_table(void)
 		while (b < 10)
 		{
 			c = a * b;
+			if (b < 9)
+			{
 			printf("%d, ", c);
 			b++;
+			}
+			else if (b == 9)
+			{
+			printf("%d", c);
+			b++;
+			}
 		}
 		printf("\n");
 		a++;
