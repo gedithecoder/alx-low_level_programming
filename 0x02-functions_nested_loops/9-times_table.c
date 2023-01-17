@@ -20,7 +20,7 @@ void times_table(void)
 			c = a * b;
 			if (b < 9)
 			{
-			printf("%d, ", c);
+			printf("%d,  ", c);
 			b++;
 			}
 			else if (b == 9)
