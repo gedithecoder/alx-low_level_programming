@@ -12,12 +12,13 @@ void times_table(void)
 	int b;
 	int c;
 
-	while (a < 10)
+	while (a < 1)
 	{
 		b = 0;
 		while (b < 10)
 		{
 			c = a * b;
+			
 			if (b < 9)
 			{
 			printf("%d,  ", c);
@@ -32,5 +33,30 @@ void times_table(void)
 		printf("\n");
 		a++;
 	}
+	while (a < 10)
+	{
+		b = 0;
+		while (b < 10)
+		{
+			c = a * b;
+			
+			if (c == 0)
+			{
+			printf("%d", c);
+			b++;
+			}
+			else if ((b <= 9) && (c < 10))
+			{
+			printf(",  %d", c);
+			b++;
+			}
+			else if (b <= 9 && c >= 10)
+			{
+			printf(", %d", c);
+			b++;
+			}
+		}
+		printf("\n");
+		a++;
+	}
 }
-
