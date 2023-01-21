@@ -4,7 +4,7 @@
 
 /**
  * print_to_98 - print natural numbers n upto 98
- * @a: starting point
+ * @n: starting point
  */
 
 void print_to_98(int n)
