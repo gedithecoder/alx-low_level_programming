@@ -12,17 +12,16 @@
 
 int main(void)
 {
-	int num1, num2, num3, a;
-
+	long int num1, num2, num3, a;
 	num1 = 1;
 	num2 = 2;
 	num3 = num1 + num2;
 	a = 5;
 
-	printf("%d, %d, ", num1, num2);
+	printf("%ld, %ld, ", num1, num2);
 	while (a <= 50)
 	{
-		printf("%d", num3);
+		printf("%ld", num3);
 		num1 = num2;
 		num2 = num3;
 		num3 = num1 + num2;
