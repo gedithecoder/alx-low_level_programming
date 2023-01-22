@@ -18,7 +18,7 @@ int main(void)
 	num2 = 2;
 	num3 = num1 + num2;
 	a = 5;
-	
+
 	printf("%d, %d, ", num1, num2);
 	while (a <= 50)
 	{
@@ -30,9 +30,8 @@ int main(void)
 		{
 			printf(", ");
 		}
-		a++;
+		++a;
 	}
 	printf("\n");
 	return (0);
 }
-
