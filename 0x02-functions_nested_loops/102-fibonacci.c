@@ -14,6 +14,7 @@ int main(void)
 {
 	long int num1, num2, num3;
 	int a;
+
 	num1 = 1;
 	num2 = 2;
 	num3 = num1 + num2;
