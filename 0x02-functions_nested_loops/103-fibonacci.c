@@ -13,12 +13,11 @@
 int main(void)
 {
 	long int num1, num2,  num3, sum;
-	int k;
+
 	num1 = 0;
 	num2 = 1;
 	num3 = num1 + num2;
 	sum = 0;
-	k = 3;
 
 	while (num3 < 4000000)
 	{
