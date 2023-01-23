@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	unsigned long a, b, c;
+	unsigned long long int a, b, c;
 	int d;
 
 	a = 1;
@@ -18,10 +18,10 @@ int main(void)
 	c = a + b;
 	d = 3;
 
-	printf("%lu, %lu, ", a, b);
+	printf("%llu, %llu, ", a, b);
 	while (d <= 98)
 	{
-		printf("%lu", c);
+		printf("%llu", c);
 		if (d != 98)
 		{
 			printf(", ");
