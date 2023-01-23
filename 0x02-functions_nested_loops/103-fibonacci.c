@@ -12,25 +12,24 @@
 
 int main(void)
 {
-	long int num1, num2,  num3, sum, k;
-
-	num1 = 1;
-	num2 = 2;
+	long int num1, num2,  num3, sum;
+	int k;
+	num1 = 0;
+	num2 = 1;
 	num3 = num1 + num2;
-	k = 0;
+	sum = 0;
+	k = 3;
 
-	while (k < 4000000)
+	while (num3 < 4000000)
 	{
-		if ((num3 % 2) == 0 && num3 <= 4000000)
-		{
-			sum += num3;
-		}
 		num1 = num2;
 		num2 = num3;
 		num3 = num1 + num2;
-		k++;
+		if ((num3 % 2) == 0)
+		{
+			sum += num3;
+		}
 	}
-	sum += 2;
 	printf("%ld\n", sum);
 	return (0);
 }
