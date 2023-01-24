@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <limits.h>
 
 /**
  * main - finds and prints the first 98 Fibonacci numbers,
@@ -10,7 +10,10 @@
 
 int main(void)
 {
-	unsigned long long int a, b, c;
+	LONG_MAX a;
+	LONG_MAX b;
+	LONG_MAX c;
+
 	int d;
 
 	a = 1;
@@ -18,10 +21,10 @@ int main(void)
 	c = a + b;
 	d = 3;
 
-	printf("%llu, %llu, ", a, b);
+	printf("%ld, %ld, ", a, b);
 	while (d <= 98)
 	{
-		printf("%llu", c);
+		printf("%ld", c);
 		if (d != 98)
 		{
 			printf(", ");
