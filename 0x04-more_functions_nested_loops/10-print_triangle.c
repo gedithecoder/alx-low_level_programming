@@ -12,7 +12,7 @@
 void print_triangle(int size)
 {
 	int a, b, c, j, k, x;
-	
+
 	a = 0;
 	b = 1;
 	j = 1;
@@ -38,7 +38,6 @@ void print_triangle(int size)
 			j++;
 			x++;
 		}
-		_putchar('\n');
 	}
 	else
 	{
