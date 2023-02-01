@@ -3,8 +3,6 @@
 
 #include <stdlib.h>
 
-void _putchar(char *s);
-size_t print_listint(const listint_t *h);
 
 /**
  * struct listint_s - singly linked list
