@@ -2,7 +2,7 @@
 
 /**
  * get_endianness - Checks thendianness.
- * 
+ *
  * Return: If big-endin-0.
  * If little-endin-1.
  */
