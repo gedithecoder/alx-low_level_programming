@@ -1,4 +1,4 @@
 #!/bin/bash
-ggc -c ./*.c
-ar rcs liball.a ./*.c
+gcc -c *.c
+ar rc liball.a *.o
 randlib liball.a
