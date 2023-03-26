@@ -4,7 +4,7 @@
 #include <string.h>
 /**
  * check_num - check if string contains interges
- * @str - array str
+ * @str: array str
  *
  * Return: Always 0 (Success)
  */
