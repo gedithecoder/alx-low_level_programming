@@ -13,7 +13,7 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char *a = (char *)malloc((size + 1) * sizeof(c));
+	char *a = (char *)malloc((size) * sizeof(c));
 	unsigned int b = 0;
 
 	if (size == 0)
