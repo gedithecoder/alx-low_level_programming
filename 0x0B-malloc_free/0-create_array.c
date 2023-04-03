@@ -20,6 +20,11 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
+
+	if (a == 0)
+	{
+		return (NULL);
+	}
 	while (b < size)
 	{
 		a[b] = c;
